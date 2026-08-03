@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Tracker (MSVC)",
+      "type": "shell",
+      "command": "cl.exe /EHsc /std:c++17 tracker.cpp /Fe:tracker.exe",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": { "reveal": "always" }
+    }
+  ]
+}

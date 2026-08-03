@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Tracker",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/tracker.exe",
+      "args": ["list"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
